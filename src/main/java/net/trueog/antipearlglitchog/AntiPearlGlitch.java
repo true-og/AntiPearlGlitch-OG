@@ -17,6 +17,7 @@ public final class AntiPearlGlitch extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new PearlInteractEvent(), this);
         this.saveDefaultConfig();
         log.info("[AntiPearlGlitch] Plugin enabled!");
+
     }
 
     @Override
@@ -24,10 +25,13 @@ public final class AntiPearlGlitch extends JavaPlugin {
 
         // Plugin shutdown logic.
         log.info("[AntiPearlGlitch] Plugin disabled!");
+
     }
 
     public static AntiPearlGlitch getInstance() {
 
         return instance;
+
     }
+
 }
