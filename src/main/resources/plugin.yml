@@ -1,4 +1,4 @@
 name: AntiPearlGlitch-OG
 version: '${version}'
+api-version: '${apiVersion}'
 main: net.trueog.antipearlglitchog.AntiPearlGlitch
-api-version: '1.19'
